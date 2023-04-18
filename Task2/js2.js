@@ -70,7 +70,7 @@ $(document).ready(function(){
 			was.push(num);
 			if (progress<10) {
 				do{
-					num=Math.floor(1+Math.random()*5);
+					num=Math.floor(1+Math.random()*10);
 				} while(was.includes(num));
 				start_rebus(num);
 			}else{
@@ -96,7 +96,7 @@ function startTime () {
 		$(".time").val(time).trigger('change');
 		if (time == 0) {
 			alertify.error("Time is out!");
-			setTimeout(() => window.open("../Task1/task1.html", "_self", false), 2000);
+			setTimeout(() => window.open("../Task1/index1.html", "_self", false), 2000);
 			localStorage.removeItem("time");
 		} else if (time > 0) {
 			localStorage.setItem("time", time);

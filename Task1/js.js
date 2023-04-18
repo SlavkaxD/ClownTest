@@ -1,6 +1,6 @@
 let progress=0;
 let was=[];
-let answer=["Кодеры","Vast rp","Наборные","Лёшка","Шарик"];
+let answer=["Ивангай","Бебра","Бог","Глеб","Нек"];
 let num=Math.floor(1+Math.random()*5);
 $(document).ready(function(){
 	$(".progress").knob({

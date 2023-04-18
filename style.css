@@ -1,0 +1,30 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: url(https://img1.goodfon.ru/wallpaper/nbig/2/dd/kamera-tyurma-fon.jpg);
+}
+header{
+	height: 10vh;
+	text-align: center;
+	color: white;
+	letter-spacing: 5px;
+	margin-top: 3rem;
+}
+main{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#start{
+	text-decoration: none;
+	color: rgb(255, 115, 0);
+	font-size: 4rem;
+	transition: all ease-in-out .5s;
+	text-shadow: 0 0 0 white;
+	animation: rainbow 4s infinite ease-in-out;
+}
+#start:hover{
+	transform: scale(1.2);
+	text-shadow: 0.2rem 0.2rem 0 white;
+}
